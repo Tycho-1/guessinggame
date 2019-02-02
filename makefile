@@ -1,10 +1,10 @@
-all: readme.md
+all: README.md
 
-readme.md: guessinggame.sh
-	echo "# Summary for the assignment, part of the course 'The Unix Workbench'" > readme.md
-	echo "- The date of running of the makefile:"  >> readme.md
-	date >> readme.md 
-	echo "- The number of line in the guessinggame.sh file:"  >> readme.md
-	cat guessinggame.sh | wc -l >> readme.md
+README.md: guessinggame.sh
+	echo "# Summary for the assignment, part of the course 'The Unix Workbench'" > README.md
+	echo "- The date of running of the makefile:"  >> README.md
+	date >> README.md 
+	echo "- The number of line in the guessinggame.sh file:"  >> README.md
+	cat guessinggame.sh | wc -l >> README.md
 clean:
-	rm readme.md
+	rm README.md
