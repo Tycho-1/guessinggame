@@ -1,3 +1,5 @@
+all: readme.md
+
 readme.md: guessinggame.sh
 	echo "# Summary for the assignment, part of the course 'The Unix Workbench'" > readme.md
 	echo "- The date of running of the makefile:"  >> readme.md
